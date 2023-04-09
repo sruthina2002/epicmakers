@@ -1,0 +1,111 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburgernav{
+        display: flex;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    #about{
+        display: flex;
+    }
+    /* #project{
+        position: relative;
+    } */
+    #team{
+        position:none;
+    }
+    .pro-container{
+        max-width: 80%;
+    }
+    .grid{
+        gap: 2%;
+    }
+    .card{
+        padding: 10px;
+    }
+    .grid .card{
+        margin: 20px auto;
+    }
+    .card_img{
+        max-width: 90%;
+    }
+    .card-body{
+        padding: 20px;
+    }
+    .card-body p{
+        font-size: 15px;
+    }
+    .read_more{
+        padding: 5px;
+        width: 60%;
+        font-size: 12px;
+        margin-bottom: 20px;
+     }
+}
+@media only screen and (max-width: 1000px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+    .pro-container{
+        max-width: 100%;
+        height: auto;
+    }
+    
+@media screen and (max-width:900px){
+    .timeline{
+        margin: 50px;
+    }
+    
+    .timeline ul li div{
+        width:250px;
+        }
+    .timeline ul li:nth-child(even) div{
+        left: calc(-260px - 55px + 6px);
+
+}
+}
+@media screen and (max-width:600px){
+    .timeline ul li{
+        margin-left:0px;
+    }
+    .timeline ul li div{
+        width: calc(70vw - 90px);
+    }
+    .timeline ul li:nth-child(even) div{
+        left:45px;
+    }
+}
+@media (max-width: 600px) {
+    .contact-form {
+      grid-template-columns: 1fr;
+    }
+    .form:before{
+        top:-15px;
+        left:350px;
+    }
+    .text {
+        margin: 1rem 0 1.5rem 0;
+      }
+}
+@media (max-width: 450px){
+.text,
+.information{
+    font-size: 0.8rem;
+  }
+.title {
+    font-size: 1.15rem;
+  }
+.btn {
+    padding: 0.45rem 1.2rem;
+  } 
+.input {
+    padding: 0.45rem 1.2rem;
+  }
+  .form:before{
+    top:-15px;
+    left:230px;
+}
+}}
