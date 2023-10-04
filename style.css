@@ -331,7 +331,7 @@ h1{
 } */
 .team-pic{
     width: 100%;
-    height: 150px;
+    height: 250px;
     position: relative;
 }
 .team-pic::after{
